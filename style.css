@@ -247,3 +247,17 @@ body {
    width: 8px;
    border-radius: 4px;
 }
+
+@media (max-width: 550px) {
+   .clock {
+      width: 400px;
+      height: 400px;
+   }
+}
+
+@media (max-width: 400px) {
+   .clock {
+      width: 350px;
+      height: 350px;
+   }
+}
